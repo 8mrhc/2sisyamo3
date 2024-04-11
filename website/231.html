@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question</title>
+    <link rel="stylesheet" href="css/style_4.css">
+</head>
+<body>
+
+<div class="honbun">
+    <p>
+    ---------<br>
+    記録_3.wav<br>
+    ~~素晴らしい、最後の関門だ。<br>
+    指示は以下に示している。それに従って進んでくれ。<br>
+    各問題に対応する指示はすでに動画で通達しているはずだ。<br>
+    ---------<br>
+    <div class="Question">Q: 音を聞き、順を記せ。</div>
+    <div class="PASS">PASS: [01]</div>
+    ---------<br>
+    ヒント :行下に白文字で記載（2段階）<br>
+    <div class="hint">
+    1. 本編動画の指示と問題番号は対応している。<br>
+    2. 図全体を見ると、答えがどこにあるかがわかるかもしれない。
+
+    </p>
+
+    <div class="title_1"><p>02</div><br>
+        <img src="rooms_1.png" alt="謎解き用図_1" width="600" height="300px"><br>
+        <img src="rooms_2_cleared.png" alt="謎解き用図_2" width="900px" height="300px">
+    </p>
+    
+
+    <p>
+        <div class="title_2">03</div><br>
+
+    ・<a href="https://youtu.be/CfUsrjPCuYU">onte.com/bZf6VVnX</a><br>
+    ・<a href="https://note.com/preview/nbe7cc22a7023?prev_access_key=44f270fa2bc9fd091de809b60cc830f8">note.com/ErMa5Kaj</a><br>
+    ・<a href="https://x.com/LEE_eizo/status/1640018720750977025">eont.com/uid6cxwg</a><br>
+    ・<a href="https://www.youtube.com/watch?v=A-nM-ywgHGE">ntoe.com/uid6cxwg</a><br>
+    ・<a href="https://note.com/preview/n0c5c0fbce327?prev_access_key=8d52a67e877f4af8d6326a63006b42c3">note.com/HG3F3RZc</a><br>
+    ・<a href="https://x.com/granbluefantasy/status/1125686740486742016?s=20">tone.com/4bkaidw2</a><br>
+    ・<a href="https://note.com/preview/n1ae1ddb16784?prev_access_key=31d9e22fb6231647f928bfe420f45412">note.com/8xE9e6wX</a><br>
+    ・<a href="https://x.com/mikan_box0325/status/1644294047480320001">enot.com/zytha2u2</a><br>
+    ・<a href="https://x.com/mikan_box0325/status/1623303348660359168">noet.com/tikta8kn</a><br>
+    ・<a href="https://note.com/preview/n94da5a419d0b?prev_access_key=e3e94d5e9edff00c3b3edadbdb9317d3">note.com/VSjenKWU</a><br>
+    
+    <br>
+
+    </p>
+    <div class="title_3"><p>01</div>
+    </p>
+    
+    <img src="bord.png" alt="謎解き用画像_3" width="800px" height="400px">
+    
+    <div class="audio_player">
+    <audio controls src="pas_sound_fix.wav" type="audio/wav">謎解き用音声_1</audio>
+    </div>
+
+
+</div>
+
+
+<p>
+<div class="navigation">
+    *パスワードは数字3字で入力してください。<br>*パスワードが誤っていた場合、NOT FOUNDページが表示されます。
+</div>
+
+
+<div class="kotae">
+    <input type="button" value="Answer" onclick="gate();">
+</div>
+</p>
+
+
+    <script type="text/javascript">
+        function gate() {
+           var UserInput = prompt("パスワードを入力して下さい。","");
+           if( /\W+/g.test(UserInput) ) {
+      // ▼半角英数字以外の文字が存在したらエラー
+      alert("半角英数字のみを入力して下さい。");
+   }
+   // ▼キャンセルをチェック
+   else if( UserInput != null ) {
+      // ▼入力内容からファイル名を生成して移動
+      location.href = UserInput + ".html";
+   }
+        }
+     </script>
+
+    
+</body>
+</html>
