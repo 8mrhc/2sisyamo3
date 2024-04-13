@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+.honbun{
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.Question{
+    font-weight: bold;
+}
+.PASS{
+    font-weight: bold;
+}
+
+.hint{
+    color: #fff;
+}
+
+.title_1{
+    font-weight: bold;
+    font-size: 140%;
+    color: red;
+}
+
+.title_2{
+    font-weight: bold;
+    font-size: 140%;
+    color: #0f0;
+}
+
+.title_3{
+    font-weight: bold;
+    font-size: 140%;
+    color: #00f;
+}
+
+.audio_player{
+    position: relative;
+    top: -220px;
+    left: 250px;
+}
+
+.navigation{
+    text-align: left;
+    margin-top: 100px;
+}
+
+.kotae{
+    text-align: left;
+    margin-top: 100px;
+}
+
+
